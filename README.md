@@ -46,4 +46,6 @@ A PLL with an incoming frequency of 1 MHz and 8-bit registers for multiplier and
     Another (y/n)?n
     $
 
+To synthesize 1265 kHz from a 1 MHz base, set multiplier to 253, and divider to 200.
+
 The program uses integer arithmetic. This avoids rounding errors; it also means the algorithm can be used in a microcontroller. The algorithm used is the continued fractions algorithm, which can be traced back to Euclid (approx. 300 BC).
